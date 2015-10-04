@@ -3,6 +3,7 @@
 }
 
 body {
+  max-width: 30em;
   padding: 1em;
   font-family: sans-serif;
 }
