@@ -1,4 +1,21 @@
-[contenteditable="true"]:hover {
+.editable {
   color: red;
+}
+
+body {
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.layout {
+  border: 1px dashed gray;
+  padding: 3em;
+  padding-bottom: 4em;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 1em;
+  float: right;
 }
 

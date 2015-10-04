@@ -1,0 +1,8 @@
+<div class="layout">
+  <div ng-init="status = false" contenteditable="{{status}}" ng-class="{editable: status}" ng-transclude>
+  </div>
+  <div>
+      <button ng-click="status = true" ng-show="!status">Edit</button>
+      <button ng-click="status = false" ng-show="status">Save</button>
+  </div>
+</div>

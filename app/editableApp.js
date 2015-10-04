@@ -4,9 +4,6 @@ angular.module('editApp', [])
   return {
     restrict: 'A',
     transclude: true,
-    template: '<div contenteditable="true">' + 
-              '<p ng-transclude>' + 
-              '</p>' + 
-              '<div>'
+    templateUrl: 'editableTemplate.html'
   }
 })
