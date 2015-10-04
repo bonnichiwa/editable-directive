@@ -1,3 +1,4 @@
-.editable {
-  
+[contenteditable="true"]:hover {
+  color: red;
 }
+
