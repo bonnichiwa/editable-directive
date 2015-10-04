@@ -4,6 +4,7 @@ angular.module('editApp', [])
   return {
     restrict: 'A',
     transclude: true,
+    scope: true,
     templateUrl: 'editableTemplate.html'
   }
 })
